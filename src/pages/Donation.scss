@@ -1,0 +1,84 @@
+/* Basic styles for the Donate Food page */
+.donate-food-container {
+    width: 600px; /* Adjust width as needed */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ACE2E1;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .thali-selection {
+    margin-bottom: 20px;
+    
+  }
+  
+  .thali-selection h3 {
+    margin-bottom: 10px;
+  }
+  
+  .radio-group {
+    margin-bottom: 10px;
+  }
+  
+  .radio-group input[type="radio"] {
+    margin-right: 5px;
+    
+  }
+  
+  /* Style radio buttons and labels */
+  .radio-group input[type="radio"] {
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .radio-group label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  
+  .radio-group input[type="radio"]:checked + label {
+    color: #4CAF50; /* Green */
+  }
+  
+  .radio-group label::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-color: white; /* Green */
+  }
+  
+  .radio-group input[type="radio"]:checked + label::before {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45A049; 
+  }  

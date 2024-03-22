@@ -1,0 +1,66 @@
+.explore-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center elements horizontally */
+    gap: 20px; 
+    background-color: #E493B3;/* Spacing between menu sections */
+  
+    .explore-heading {
+      color: #fff; /* Text color */
+      font-weight: bold;
+      text-align: center; /* Align text in heading */
+      padding: 1rem 3rem; /* Padding for content */
+      border-radius: 4px; /* Rounded corners */
+  
+      h1 {
+        margin-bottom: 0.5rem; /* Space between heading and paragraph */
+      }
+  
+      p {
+        font-size: 14px; /* Paragraph font size */
+        color: #f5f5f5; /* Light text color */
+      }
+    }
+  
+    .menu-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; /* Distribute items horizontally */
+      width: 83%; /* Limit width for better responsiveness */
+      margin: 0 auto; /* Center the menu list horizontally */
+  
+      .explore-menu-list-item {
+        cursor: pointer; /* Indicate hover/click interaction */
+        margin: 10px; /* Spacing between items */
+        padding: 15px 20px; /* Padding for content */
+        border-radius: 5px; /* Rounded corners */
+        text-align: center; /* Center text within items */
+        transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+  
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.1); /* Subtle hover effect */
+        }
+  
+        .active {
+          border: 4px solid yellowgreen;
+          padding: 2px;
+          border-radius: 50%;
+        }
+  
+        img {
+          margin-bottom: 5px; /* Space between image and text */
+          width: 120px; /* Image size */
+          height: 120px; /* Adjust image size as needed */
+          object-fit: cover; /* Ensure image fills container */
+          border-radius: 50%;
+        }
+  
+        p {
+          font-weight: bold;
+          font-size: 16px; /* Text size */
+          color: #333; /* Text color */
+        }
+      }
+    }
+  }
+  

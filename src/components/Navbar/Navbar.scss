@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+
+    span{
+        color:white;
+        font-size: 16px;
+    }
+
+    .right{
+        display: flex;
+        justify-content: center;
+        gap:20px;
+
+        span{
+            color: white;
+            font-size: 18px;
+        }
+    }
+}

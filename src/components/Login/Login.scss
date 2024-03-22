@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif; /* Set your preferred font */
+  }
+  
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure form covers the entire viewport */
+    background-color: #f0f2f5; /* Light background color */
+  
+  .login-container {
+    background-color: #fff; /* White container background */
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 400px; /* Adjust width as needed */
+ 
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+   h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+  }
+  img {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+  }
+}
+  .login-input {
+    margin-bottom: 20px;
+  
+  
+   input {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+  
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+  
+  .login-container button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+}
+  
+  .login-conditon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  p {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #999;
+  }
+ }
+  p {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  
+  
+   p span {
+    cursor: pointer;
+    color: #4CAF50; /* Same green color as button */
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .login-container p span:hover {
+    color: #3e8e41; /* Darker green on hover */
+  }
+}
+}}
