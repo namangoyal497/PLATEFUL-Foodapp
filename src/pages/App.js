@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./app.scss"
 import {Route,Routes,BrowserRouter} from 'react-router-dom'
-import Login from "./components/Login/Login.jsx";
-import Tiffin from "./pages/Tiffin.jsx"
-import Menu from "./pages/Menu.jsx"
-import Home from "./pages/Home1.jsx";
-import Cart from "./pages/Cart.jsx"
-import Donation from "./pages/Donation.jsx"
+import Login from "../components/Login/Login.jsx";
+import Tiffin from "./Tiffin.jsx"
+import Menu from "./Menu.jsx"
+import Home from "./Home1.jsx";
+import Cart from "./Cart.jsx"
+import Donation from "./Donation.jsx"
 const  App=()=> {
   const [showLogin,setShowLogin]=useState(false)
   return (
