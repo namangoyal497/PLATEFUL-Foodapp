@@ -17,7 +17,7 @@ const Card = () => {
         <span>Share a Meal, Share Kindness. </span>
        </div>
        <div className='cardImg'>
-       <a href="/menu"><img src={Tiffin} alt="Dine_img"/></a>
+       <a href="/tiffin"><img src={Tiffin} alt="Dine_img"/></a>
         <h1>Tiffin Treasures</h1>
         <span>Where Taste Meets Tradition</span>
        </div>

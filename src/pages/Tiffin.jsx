@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 // import './styles.scss'; // Import your SCSS file
-import Headermenu from '../components/header/Headermenu';
 import Location from '../components/Location/Location';
 import MealPlan from '../components/MealPlan/MealPlan';
 import OrderPage from '../components/OrderPage/OrderPage';
